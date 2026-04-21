@@ -139,3 +139,12 @@
   .twitchLayout{ grid-template-columns: 1fr; }
   .twitchPlayerCard, .twitchAboutCard, .twitchPanelsCard{ grid-column: auto; }
 }
+body {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+    url("https://sic4riodragon.uk/assets/general.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
